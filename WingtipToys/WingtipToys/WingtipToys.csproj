@@ -113,9 +113,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Catalog\boatbig.png" />
+    <Content Include="Catalog\boatpaper.png" />
+    <Content Include="Catalog\boatsail.png" />
+    <Content Include="Catalog\busdouble.png" />
+    <Content Include="Catalog\busgreen.png" />
+    <Content Include="Catalog\busred.png" />
+    <Content Include="Catalog\carconvert.png" />
+    <Content Include="Catalog\carearly.png" />
+    <Content Include="Catalog\carfast.png" />
+    <Content Include="Catalog\carfaster.png" />
+    <Content Include="Catalog\carracer.png" />
+    <Content Include="Catalog\planeace.png" />
+    <Content Include="Catalog\planeglider.png" />
+    <Content Include="Catalog\planepaper.png" />
+    <Content Include="Catalog\planeprop.png" />
+    <Content Include="Catalog\rocket.png" />
+    <Content Include="Catalog\truckbig.png" />
+    <Content Include="Catalog\truckearly.png" />
+    <Content Include="Catalog\truckfire.png" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap-original.css" />
+    <Content Include="Content\bootstrap-original.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
@@ -127,11 +148,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-original.min.css.map" />
+    <Content Include="Content\bootstrap-original.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -200,6 +224,20 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductContext.cs" />
     <Compile Include="Models\ProductDatabaseInitializer.cs" />
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.designer.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
